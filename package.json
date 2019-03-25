@@ -1,0 +1,41 @@
+{
+  "name": "dashboard-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "classnames": "2.2.6",
+    "emblematic-icons": "0.6.1",
+    "former-kit": "1.0.1",
+    "former-kit-skin-pagarme": "1.0.0",
+    "i18next": "13.1.2",
+    "i18next-browser-languagedetector": "2.2.4",
+    "i18next-xhr-backend": "1.5.1",
+    "normalize.css": "8.0.1",
+    "prop-types": "15.6.2",
+    "ramda": "0.25.0",
+    "react": "16.8.1",
+    "react-dom": "16.8.1",
+    "react-i18next": "9.0.2",
+    "react-redux": "6.0.0",
+    "react-router-dom": "4.3.1",
+    "react-scripts-former-kit-dashboard": "1.0.2",
+    "react-vanilla-form": "0.6.1",
+    "recharts": "1.4.2",
+    "redux": "4.0.1",
+    "redux-actions": "2.6.4",
+    "redux-observable": "1.0.0",
+    "rxjs": "6.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "build:analyze": "react-scripts build --analyze"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

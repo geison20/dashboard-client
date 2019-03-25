@@ -1,0 +1,20 @@
+@import "former-kit-skin-pagarme/dist/styles/spacing.css";
+
+.capitalize {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+
+.centralizedItem {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.buttons  > * {
+  margin-left: var(--spacing-small);
+
+  &:first-child {
+    margin-left: unset;
+  }
+}
